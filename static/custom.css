@@ -151,3 +151,40 @@ header .descr {
     line-height: 20px;
     padding: 0 20px;
 }
+
+#our_works {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 1px;
+    grid-row-gap: 1px;
+}
+#our_works .item {
+    position: relative;
+    color: #fff;
+}
+#our_works .hover {
+    display: none;
+}
+#our_works .title {
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 8px;
+}
+#our_works .descr {
+    font-family: 'Raleway';
+    font-size: 0.9em;
+}
+#our_works .item:hover .hover {
+    display: flex;
+    background: rgba(232,69,69,0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
