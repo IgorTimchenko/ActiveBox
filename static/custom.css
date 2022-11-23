@@ -188,3 +188,41 @@ header .descr {
     justify-content: center;
     flex-direction: column;
 }
+
+#team .container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+#team .socnet img {
+    display: block;
+}
+#team .socnet {
+    display: flex;
+    margin-top: 25px;
+}
+#team .socnet a {
+    border: 1px solid #e8ecee;
+    display: block;
+    margin-right: 6px;
+}
+#team .name {
+    font-family: 'Raleway';
+    font-size: 1.3em;
+    padding-top: 28px;
+}
+#team .status {
+    color: red;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-size: 0.8em;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+#team .about {
+    font-family: 'Raleway';
+    font-size: 0.85em;
+    padding-top: 10px;
+    color: #6c7279;
+    line-height: 21px;
+}
